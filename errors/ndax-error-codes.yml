@@ -1,0 +1,28 @@
+generated: '2026-10-13'
+method: searched
+source: https://apidoc.ndax.io/#standard-response-objects-and-common-error-codes
+format: custom
+envelope:
+  shape: '{ "result": boolean, "errormsg": string, "errorcode": integer, "detail": string }'
+  note: Generic response object returned inside the message frame; result true means the OMS received the call, not that the action took place. errorcode 0 on success.
+problems:
+- status: 20
+  title: Not Authorized
+  type: errorcode
+  description: errormsg "Not Authorized" (errorcode 20).
+- status: 100
+  title: Invalid Response
+  type: errorcode
+  description: errormsg "Invalid Response" (errorcode 100).
+- status: 101
+  title: Operation Failed
+  type: errorcode
+  description: errormsg "Operation Failed" (errorcode 101).
+- status: 102
+  title: Server Error
+  type: errorcode
+  description: errormsg "Server Error" (errorcode 102).
+- status: 104
+  title: Resource Not Found
+  type: errorcode
+  description: errormsg "Resource Not Found" (errorcode 104).

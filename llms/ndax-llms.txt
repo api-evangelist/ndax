@@ -1,0 +1,137 @@
+# Ndax - Canadian Cryptocurrency Exchange
+
+> Ndax is a Canadian-regulated cryptocurrency exchange (FINTRAC-registered MSB and CIRO-regulated investment dealer) offering CAD on/off-ramps, spot trading, OTC services, staking, and a self-custody-friendly platform for individuals and businesses.
+
+Headquartered in Calgary, Alberta. Serves all Canadian provinces and territories.
+Supports 65+ cryptocurrencies with CAD trading pairs.
+Regulated by FINTRAC (As a Money Services Business), registered as a Restricted Dealer with the CSA, and a member of the Canadian Investment Regulatory Organization (CIRO).
+First Canadian cryptocurrency exchange certified SOC 2 Type II.
+
+## Core Products
+
+- [Buy and Sell Cryptocurrency in Canada](https://ndax.io): Trade Bitcoin, Ethereum, and 65+ cryptocurrencies using Canadian dollars (CAD)
+- [Crypto Trading Platform](https://ndax.io/en/individual/advanced-trading): Spot trading with advanced order types and competitive fees
+- [Institutional Services](https://ndax.io/en/business/institutional-solutions): Crypto trading and custody solutions for institutions
+- [Buy crypto](https://ndax.io/fees): Funding methods, supported coins, fees
+- [Advanced Trading](https://ndax.io/en/individual/advanced-trading): Spot trading, charts, order types
+- [Staking](https://ndax.io/staking): Earn rewards on supported coins
+- [OTC desk](https://ndax.io/wealth-crypto-otc-exchange): Large-volume trades for HNW clients and institutions
+- [Business accounts](https://ndax.io/en/business): Corporate crypto accounts and treasury management
+- [Earn crypto](https://ndax.io/earn-crypto): Promotions, referral bonuses, and rewards
+
+## Supported Cryptocurrencies
+
+- [Aave (AAVE)](https://ndax.io/prices/aave): AAVE — leading decentralised lending and borrowing protocol for earning interest and collateralised loans. Live CAD price on Ndax.
+- [Algorand (ALGO)](https://ndax.io/prices/algorand): ALGO — pure proof-of-stake Layer 1 blockchain focused on speed, instant finality, and carbon-neutral operations. Live CAD price on Ndax.
+- [Alien Worlds (TLM)](https://ndax.io/prices/alien-worlds): TLM — blockchain-based metaverse game where players mine and compete for Trilium tokens. Live CAD price on Ndax.
+- [Aptos (APT)](https://ndax.io/prices/aptos): APT — Move-language Layer 1 blockchain built for safety, scalability, and reliable smart contract execution. Live CAD price on Ndax.
+- [Arbitrum (ARB)](https://ndax.io/prices/arbitrum): ARB — Ethereum's leading optimistic rollup Layer 2, reducing transaction costs while inheriting Ethereum security. Live CAD price on Ndax.
+- [Fetch.ai (FET)](https://ndax.io/prices/fetch-ai): FET — decentralised network of AI agents enabling autonomous machine-to-machine transactions and services. Live CAD price on Ndax.
+- [Aster (ASTER)](https://ndax.io/prices/aster): ASTER — multi-chain smart contract platform supporting EVM and WebAssembly for next-generation dApps. Live CAD price on Ndax.
+- [Avalanche (AVAX)](https://ndax.io/prices/avalanche-2): AVAX — fast-finality smart contract platform with a unique multi-chain architecture and sub-second transaction speeds. Live CAD price on Ndax.
+- [Avnt (AVNT)](https://ndax.io/prices/avnt): AVNT — digital asset token traded on Ndax with live CAD pricing.
+- [Axie Infinity (AXS)](https://ndax.io/prices/axie-infinity): AXS — play-to-earn blockchain game where players collect, breed, and battle digital creatures. Live CAD price on Ndax.
+- [Berachain (BERA)](https://ndax.io/prices/berachain): BERA — proof-of-liquidity EVM-compatible blockchain where validators are rewarded for providing network liquidity. Live CAD price on Ndax.
+- [Bitcoin (BTC)](https://ndax.io/prices/bitcoin): BTC — the original proof-of-work cryptocurrency and largest digital asset by market cap. Live CAD price on Ndax.
+- [Bittensor (TAO)](https://ndax.io/prices/bittensor): TAO — decentralised machine learning network where participants are rewarded for contributing AI model intelligence. Live CAD price on Ndax.
+- [Bonk (BONK)](https://ndax.io/prices/bonk): BONK — Solana-native meme token and the first dog coin on Solana, with a large community-driven following. Live CAD price on Ndax.
+- [Cardano (ADA)](https://ndax.io/prices/cardano): ADA — peer-reviewed proof-of-stake blockchain focused on security and sustainability. Live CAD price on Ndax.
+- [Celestia (TIA)](https://ndax.io/prices/celestia): TIA — modular data availability network enabling developers to deploy blockchains with minimal overhead. Live CAD price on Ndax.
+- [Celo (CELO)](https://ndax.io/prices/celo): CELO — mobile-first blockchain platform focused on accessible financial tools and stablecoin payments. Live CAD price on Ndax.
+- [Chainlink (LINK)](https://ndax.io/prices/chainlink): LINK — leading decentralised oracle network connecting smart contracts to real-world data, APIs, and payment systems. Live CAD price on Ndax.
+- [Compound (COMP)](https://ndax.io/prices/compound-governance-token): COMP — governance token for the Compound decentralised lending protocol on Ethereum. Live CAD price on Ndax.
+- [Cosmos (ATOM)](https://ndax.io/prices/cosmos): ATOM — internet of blockchains enabling interoperability between chains via the IBC protocol. Live CAD price on Ndax.
+- [Curve DAO Token (CRV)](https://ndax.io/prices/curve-dao-token): CRV — governance token for Curve, a decentralised exchange optimised for stablecoin swaps with low slippage. Live CAD price on Ndax.
+- [Decentraland (MANA)](https://ndax.io/prices/decentraland): MANA — Ethereum-based virtual world where users buy, sell, and develop parcels of virtual land. Live CAD price on Ndax.
+- [Dogecoin (DOGE)](https://ndax.io/prices/dogecoin): DOGE — meme-origin proof-of-work cryptocurrency with one of the largest retail communities in crypto. Live CAD price on Ndax.
+- [Dogwifhat (WIF)](https://ndax.io/prices/dogwifcoin): WIF — Solana-based meme token featuring a dog in a hat, one of the most traded meme coins of 2024. Live CAD price on Ndax.
+- [Ethena (ENA)](https://ndax.io/prices/ethena): ENA — synthetic dollar protocol on Ethereum offering a crypto-native yield-bearing stablecoin called USDe. Live CAD price on Ndax.
+- [Ethereum (ETH)](https://ndax.io/prices/ethereum): ETH — leading smart contract platform powering DeFi, NFTs, and decentralised applications. Live CAD price on Ndax.
+- [Fartcoin (FARTCOIN)](https://ndax.io/prices/fartcoin): FARTCOIN — Solana-based meme token that gained significant trading volume in the 2024–2025 meme coin cycle. Live CAD price on Ndax.
+- [Filecoin (FIL)](https://ndax.io/prices/filecoin): FIL — decentralised storage network where users rent spare hard drive space in exchange for FIL tokens. Live CAD price on Ndax.
+- [Gala (GALA)](https://ndax.io/prices/gala): GALA — blockchain gaming ecosystem token powering player-owned games and in-game economies. Live CAD price on Ndax.
+- [Hedera (HBAR)](https://ndax.io/prices/hedera-hashgraph): HBAR — enterprise-grade public distributed ledger using hashgraph consensus for fast, low-cost transactions. Live CAD price on Ndax.
+- [Hyperliquid (HYPE)](https://ndax.io/prices/hyperliquid): HYPE — high-performance decentralised perpetuals exchange with an on-chain order book and native L1 blockchain. Live CAD price on Ndax.
+- [Injective (INJ)](https://ndax.io/prices/injective-protocol): INJ — DeFi-focused Layer 1 blockchain built for decentralised exchanges, derivatives, and prediction markets. Live CAD price on Ndax.
+- [Internet Computer (ICP)](https://ndax.io/prices/internet-computer): ICP — blockchain network by DFINITY that hosts smart contracts and web services at internet scale. Live CAD price on Ndax.
+- [io.net (IO)](https://ndax.io/prices/io-net): IO — decentralised GPU network aggregating compute resources for AI and machine learning workloads. Live CAD price on Ndax.
+- [JasmyCoin (JASMY)](https://ndax.io/prices/jasmycoin): JASMY — IoT data sovereignty platform enabling individuals to own and monetise their personal device data. Live CAD price on Ndax.
+- [Litecoin (LTC)](https://ndax.io/prices/litecoin): LTC — peer-to-peer cryptocurrency with faster block times than Bitcoin, designed for everyday payments. Live CAD price on Ndax.
+- [Moo Deng (MOODENG)](https://ndax.io/prices/moo-deng): MOODENG — meme token inspired by the viral baby pygmy hippo, one of the standout meme coins of 2024. Live CAD price on Ndax.
+- [NEAR Protocol (NEAR)](https://ndax.io/prices/near): NEAR — sharded proof-of-stake blockchain built for scalable decentralised applications. Live CAD price on Ndax.
+- [Ondo (ONDO)](https://ndax.io/prices/ondo-finance): ONDO — real-world asset tokenisation platform bringing institutional-grade financial products on-chain. Live CAD price on Ndax.
+- [Optimism (OP)](https://ndax.io/prices/optimism): OP — Ethereum optimistic rollup Layer 2 reducing gas fees while maintaining full EVM compatibility. Live CAD price on Ndax.
+- [Peanut the Squirrel (PNUT)](https://ndax.io/prices/peanut-the-squirrel): PNUT — meme token inspired by a viral internet squirrel that became a cultural phenomenon in 2024. Live CAD price on Ndax.
+- [Pepe (PEPE)](https://ndax.io/prices/pepe): PEPE — Ethereum-based meme token inspired by Pepe the Frog and one of the largest meme coins by market cap. Live CAD price on Ndax.
+- [Plasma (XPL)](https://ndax.io/prices/xpl): XPL — digital asset token traded on Ndax with live CAD pricing.
+- [Polkadot (DOT)](https://ndax.io/prices/polkadot): DOT — interoperability protocol connecting multiple blockchains through a shared relay chain. Live CAD price on Ndax.
+- [Pudgy Penguins (PENGU)](https://ndax.io/prices/pudgy-penguins): PENGU — token of one of the most recognised NFT collections, expanding into toys, licensing, and Web3 culture. Live CAD price on Ndax.
+- [Pyth Network (PYTH)](https://ndax.io/prices/pyth-network): PYTH — decentralised oracle protocol delivering high-fidelity financial market data to smart contracts in real time. Live CAD price on Ndax.
+- [Quant (QNT)](https://ndax.io/prices/quant-network): QNT — interoperability protocol enabling communication between blockchains and enterprise systems via Overledger OS. Live CAD price on Ndax.
+- [Render (RENDER)](https://ndax.io/prices/render-token): RENDER — decentralised GPU rendering network connecting artists needing compute power with node operators supplying it. Live CAD price on Ndax.
+- [Sei (SEI)](https://ndax.io/prices/sei-network): SEI — purpose-built Layer 1 blockchain optimised for trading with native order book infrastructure and fast finality. Live CAD price on Ndax.
+- [Shiba Inu (SHIB)](https://ndax.io/prices/shiba-inu): SHIB — Ethereum-based meme token and self-described Dogecoin rival with a large community and expanding ecosystem. Live CAD price on Ndax.
+- [Solana (SOL)](https://ndax.io/prices/solana): SOL — high-throughput blockchain using proof-of-history for fast, low-cost transactions. Live CAD price on Ndax.
+- [Sonic (S)](https://ndax.io/prices/sonic): S — high-performance EVM-compatible blockchain built for fast, cost-efficient decentralised applications. Live CAD price on Ndax.
+- [Stacks (STX)](https://ndax.io/prices/blockstack): STX — Bitcoin Layer 2 bringing smart contracts and decentralised applications to Bitcoin without modifying the base layer. Live CAD price on Ndax.
+- [Stellar (XLM)](https://ndax.io/prices/stellar): XLM — open payment network for fast, low-cost cross-border transfers and real-world asset tokenization. Live CAD price on Ndax.
+- [Sui (SUI)](https://ndax.io/prices/sui): SUI — Move-language Layer 1 built for high throughput and low latency, focused on gaming and consumer applications. Live CAD price on Ndax.
+- [The Graph (GRT)](https://ndax.io/prices/the-graph): GRT — decentralised indexing protocol for querying blockchain data across DeFi and Web3. Live CAD price on Ndax.
+- [The Sandbox (SAND)](https://ndax.io/prices/the-sandbox): SAND — virtual world where players build, own, and monetise gaming experiences on Ethereum. Live CAD price on Ndax.
+- [Toncoin (TON)](https://ndax.io/prices/the-open-network): TON — native token of The Open Network, a blockchain ecosystem deeply integrated with the Telegram platform. Live CAD price on Ndax.
+- [Uniswap (UNI)](https://ndax.io/prices/uniswap): UNI — governance token of the largest decentralised exchange by volume, using an automated market maker model. Live CAD price on Ndax.
+- [USD Coin (USDC)](https://ndax.io/prices/usd-coin): USDC — USD stablecoin, widely used across DeFi, payments, and institutional settlement. Live CAD price on Ndax.
+- [Vaulta (A)](https://ndax.io/prices/a): A — digital asset token traded on Ndax with live CAD pricing.
+- [VeChain (VET)](https://ndax.io/prices/vechain): VET — enterprise blockchain platform for supply chain management, product authenticity, and ESG tracking. Live CAD price on Ndax.
+- [Virtuals Protocol (VIRTUAL)](https://ndax.io/prices/virtual-protocol): VIRTUAL — platform for launching and co-owning AI agents, enabling tokenised AI economies on-chain. Live CAD price on Ndax.
+- [XDC Network (XDC)](https://ndax.io/prices/xdce-crowd-sale): XDC — enterprise-grade blockchain built for trade finance and real-world asset tokenisation with ISO 20022 compatibility. Live CAD price on Ndax.
+- [XRP (XRP)](https://ndax.io/prices/xrp): XRP — fast settlement network designed for cross-border payments and institutional liquidity. Live CAD price on Ndax.
+
+## Security and Compliance
+
+- [Security Overview](https://ndax.io/security): Digital asset security practices and infrastructure
+- [Regulatory and Compliance Information](https://ndax.io/en/legal/registrations-and-regulatory-disclosures): Ndax’s compliance framework and regulatory approach
+- [Account Agreements](https://ndax.io/en/legal/account-agreements)
+
+## Funding and Payments
+
+- [Deposit and Withdrawal Methods](https://ndax.io/fees): Fund your account using Canadian dollars (CAD)
+- [Crypto Deposits and Withdrawals](https://ndax.io/fees): Transfer digital assets securely to and from Ndax
+
+## Company Information
+
+- [About Ndax](https://ndax.io/en/about-us): Company overview, leadership, and mission
+
+## Support
+
+- [Help Centre](https://ndax.io/en/support): FAQs and support articles
+- [Contact Support](https://ndax.io/en/support): Customer support channels
+
+## Markets & prices
+
+- [All markets](https://ndax.io/markets): Full list of tradable pairs with volume and 24 hour change
+- [Heatmap](https://ndax.io/markets/heatmap): Visual overview of market performance by coin
+- [Indicators](https://ndax.io/markets/indicators): Technical indicators and market-wide signals
+- [Coin prices](https://ndax.io/prices): Live CAD prices for 5,000+ coins
+
+## Learn
+
+- [Blog](https://ndax.io/blog): Crypto news, product updates, and market commentary
+- [Crypto glossary](https://ndax.io/crypto-glossary): Plain-language definitions of crypto terms
+- [Learning hub](https://ndax.io/learn): Beginner to advanced guides on crypto and trading
+- [News](https://ndax.io/news): Latest headlines relevant to the Canadian crypto market
+
+## Support & company
+
+- [Help center](https://ndax.io/support): FAQs, ticket submission, and account troubleshooting
+- [Fees](https://ndax.io/fees): Trading, withdrawal, and deposit fee schedules
+- [About Ndax](https://ndax.io/about-us): Company background, mission, and team
+- [Legal](https://ndax.io/legal): Terms of service, privacy policy, and compliance docs
+- [Scam check](https://ndax.io/security/scamcheck): Verify whether a message or offer is a known scam
+
+## Machine-readable
+
+- [Sitemap](https://ndax.io/sitemap.xml): XML sitemap of all indexed pages
+- [Full LLM index](https://ndax.io/llms-full.txt): Expanded link list optimized for LLM context
+- [Blog feed](https://ndax.io/blog/feed.xml): RSS feed for blog posts
+- [Glossary feed](https://ndax.io/crypto-glossary/feed.xml): RSS feed for new glossary entries

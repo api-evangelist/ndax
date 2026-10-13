@@ -1,23 +1,89 @@
 aid: ndax
 name: NDAX
-description: 'NDAX is a company surfaced via the API Evangelist harvest backlog (source: market-gap:crypto-exchanges)
-  and added to the network as a stub for full-pipeline profiling.'
+image: https://imagedelivery.net/ymlbamkZ1Lun5qrrLrRWlQ/ebc8e984-23a7-4417-e6c4-f190b6834f00/lg
+description: Ndax (Ndax Canada Inc.) is a Canadian cryptocurrency exchange and registered investment dealer offering crypto trading against CAD, funding and institutional services. Its Ndax Pro API, built
+  on the AlphaPoint exchange platform, exposes market data, account, order, deposit and withdrawal functions as JSON-framed calls over a WebSocket gateway (wss://api.ndax.io/WSGateway/) and an HTTP gateway
+  at api.ndax.io:8443/AP/.
 url: https://raw.githubusercontent.com/api-evangelist/ndax/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:market-gap:crypto-exchanges
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
 specificationVersion: '0.20'
 created: '2026-10-13'
 modified: '2026-10-13'
 tags:
 - Company
-apis: []
+- Cryptocurrency
+- Exchanges
+- Trading
+- Market Data
+- WebSockets
+- Canada
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Authentication
+  url: authentication/ndax-authentication.yml
+- type: ErrorCatalog
+  url: errors/ndax-error-codes.yml
+- type: Spectral
+  url: rules/ndax-rules.yml
+- type: Vocabulary
+  url: vocabulary/ndax-vocabulary.yml
+- type: Conformance
+  url: conformance/ndax-conformance.yml
+- type: LLMsTxt
+  url: llms/ndax-llms.txt
+- type: Hosts
+  url: hosts/ndax-hosts.yml
+- type: Vendors
+  url: vendors/ndax-vendors.yml
+- type: DomainSecurity
+  url: security/ndax-domain-security.yml
 - type: Website
   url: https://ndax.io
+- type: Documentation
+  url: https://apidoc.ndax.io
+- type: APIReference
+  url: https://apidoc.ndax.io
+- type: Blog
+  url: https://ndax.io/en/blog
+- type: Pricing
+  url: https://ndax.io/en/fees
+- type: TermsOfService
+  url: https://ndax.io/en/legal/account-agreements
+- type: Legal
+  url: https://ndax.io/en/legal
+- type: About
+  url: https://ndax.io/en/about-us
+- type: SignUp
+  url: https://portal.ndax.io/auth/sign-up
+- type: Support
+  url: https://ndax.io/support
+apis:
+- aid: ndax:ndax-pro-api
+  name: Ndax Pro API
+  description: REST and WebSocket API for automated trading, market data, and account management (AlphaPoint-based). Calls are wrapped in a JSON message frame and sent over wss://api.ndax.io/WSGateway/;
+    public calls such as GetInstruments, GetProducts and Ping also answer over HTTP at https://api.ndax.io:8443/AP/{FunctionName}.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - Trading
+  - Market Data
+  - Cryptocurrency
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/ndax-openapi-generated.yml
+    name: OpenAPI (generated from documentation by API Evangelist)
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+x-enrichment:
+  date: '2026-10-13'
+  status: enriched
+  artifacts_added: 14
+  pass: local-v5

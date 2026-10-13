@@ -1,0 +1,56 @@
+generated: '2026-10-13'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/_ae-authored/ndax-openapi-generated.yml
+vocabulary:
+  name: NDAX Domain Vocabulary
+  description: 'Terms declared by NDAX''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions. Derived,
+    not authored.'
+  version: '2026-10-13'
+  terms:
+  - term: Users
+    definition: 'Resource group in the contract; its operation POST /Activate2FA: Activate2FA'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
+  - term: Accounts
+    definition: 'Resource group in the contract; its operation POST /GenerateTradeActivityReport: Creates an immediate report on historical trade
+      activity on a specific Order Management System for a list of accounts during a specified time interval.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
+  - term: Trades
+    definition: 'Resource group in the contract; its operation POST /GetAccountTrades: Requests the details on up to 200 past trade executions
+      for a single specific account and Order Management System, starting at index i , where i is an integer identifying a specific execution
+      in reverse order; that is, the most recent execution has an index of 0, and increments by one as trade executions recede into the past.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
+  - term: OMS Orders
+    definition: 'Resource group in the contract; its operation POST /CancelAllOrders: Cancels all open matching orders for the specified account
+      on an Order Management System.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
+  - term: Products
+    definition: 'Resource group in the contract; its operation POST /GetProduct: Retrieves the details about a specific product on the trading
+      venue.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
+  - term: Instruments
+    definition: 'Resource group in the contract; its operation POST /GetInstrument: Retrieves the details of a specific instrument from the Order
+      Management System of the trading venue.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
+  - term: Tickets
+    definition: 'Resource group in the contract; its operation POST /AddDepositTicketAttachment: Adds an attachment to a deposit ticket.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
+  - term: Miscellaneous
+    definition: 'Resource group in the contract; its operation POST /GetEarliestTickTime: Gets the earliest ticker reading of the trading day.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/ndax-openapi-generated.yml
