@@ -1,5 +1,5 @@
 generated: '2026-10-13'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/ndax/integrations
 - https://n8n.io/integrations/ndax/
@@ -9,8 +9,24 @@ checked:
 - https://composio.dev/toolkits/ndax
 - https://monid.ai/tools/ndax
 - https://n8n.io/integrations/ndax/
+- https://raw.githubusercontent.com/ccxt/ccxt/master/exchanges.json
 - https://zapier.com/apps/ndax/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: CCXT
+  partner: null
+  partner_match: null
+  type: coverage
+  channel: open-source-node
+  relationship: connector-coverage
+  direction: partner-built
+  evidence: https://github.com/ccxt/ccxt/blob/master/ts/src/ndax.ts
+  ccxt_id: ndax
+  ccxt_certified: null
+  ccxt_pro: true
+  matched_by: domain:ndax.io
+  partner_gap: no ccxt repo in all/* (catalog gap)
+  detected_by: sweep-crypto.py
+  first_seen: '2026-10-13'
 templates: []
