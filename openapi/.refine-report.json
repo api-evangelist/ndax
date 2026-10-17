@@ -1,0 +1,25 @@
+{
+  "provider": "ndax",
+  "sources": [
+    "_ae-authored/ndax-openapi-generated.yml"
+  ],
+  "outputs": [
+    "ndax-accounts-api-openapi.yml",
+    "ndax-instruments-api-openapi.yml",
+    "ndax-miscellaneous-api-openapi.yml",
+    "ndax-oms-orders-api-openapi.yml",
+    "ndax-products-api-openapi.yml",
+    "ndax-tickets-api-openapi.yml",
+    "ndax-trades-api-openapi.yml",
+    "ndax-users-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "ndax-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: written (+8 apis, 8 total)"
+  ],
+  "skipped": []
+}

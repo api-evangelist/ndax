@@ -64,20 +64,114 @@ common:
 - type: Support
   url: https://ndax.io/support
 apis:
-- aid: ndax:ndax-pro-api
-  name: Ndax Pro API
-  description: REST and WebSocket API for automated trading, market data, and account management (AlphaPoint-based). Calls are wrapped in a JSON message frame and sent over wss://api.ndax.io/WSGateway/;
-    public calls such as GetInstruments, GetProducts and Ping also answer over HTTP at https://api.ndax.io:8443/AP/{FunctionName}.
+- aid: ndax:ndax-accounts-api
+  name: NDAX Accounts API
+  description: The Accounts API from NDAX — 9 operation(s) for accounts.
   humanURL: https://apidoc.ndax.io
   baseURL: https://api.ndax.io:8443/AP
   tags:
-  - Trading
-  - Market Data
-  - Cryptocurrency
+  - Accounts
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/ndax-openapi-generated.yml
-    name: OpenAPI (generated from documentation by API Evangelist)
+    url: openapi/ndax-accounts-api-openapi.yml
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+- aid: ndax:ndax-instruments-api
+  name: NDAX Instruments API
+  description: The Instruments API from NDAX — 2 operation(s) for instruments.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - Instruments
+  properties:
+  - type: OpenAPI
+    url: openapi/ndax-instruments-api-openapi.yml
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+- aid: ndax:ndax-miscellaneous-api
+  name: NDAX Miscellaneous API
+  description: The Miscellaneous API from NDAX — 2 operation(s) for miscellaneous.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - Miscellaneous
+  properties:
+  - type: OpenAPI
+    url: openapi/ndax-miscellaneous-api-openapi.yml
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+- aid: ndax:ndax-oms-orders-api
+  name: NDAX OMS Orders API
+  description: The OMS Orders API from NDAX — 15 operation(s) for oms orders.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - OMS Orders
+  properties:
+  - type: OpenAPI
+    url: openapi/ndax-oms-orders-api-openapi.yml
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+- aid: ndax:ndax-products-api
+  name: NDAX Products API
+  description: The Products API from NDAX — 2 operation(s) for products.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - Products
+  properties:
+  - type: OpenAPI
+    url: openapi/ndax-products-api-openapi.yml
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+- aid: ndax:ndax-tickets-api
+  name: NDAX Tickets API
+  description: The Tickets API from NDAX — 19 operation(s) for tickets.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - Tickets
+  properties:
+  - type: OpenAPI
+    url: openapi/ndax-tickets-api-openapi.yml
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+- aid: ndax:ndax-trades-api
+  name: NDAX Trades API
+  description: The Trades API from NDAX — 5 operation(s) for trades.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - Trades
+  properties:
+  - type: OpenAPI
+    url: openapi/ndax-trades-api-openapi.yml
+  - type: Documentation
+    url: https://apidoc.ndax.io
+  - type: APIReference
+    url: https://apidoc.ndax.io
+- aid: ndax:ndax-users-api
+  name: NDAX Users API
+  description: The Users API from NDAX — 24 operation(s) for users.
+  humanURL: https://apidoc.ndax.io
+  baseURL: https://api.ndax.io:8443/AP
+  tags:
+  - Users
+  properties:
+  - type: OpenAPI
+    url: openapi/ndax-users-api-openapi.yml
   - type: Documentation
     url: https://apidoc.ndax.io
   - type: APIReference
