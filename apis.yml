@@ -14,6 +14,14 @@ modified: '2026-10-13'
 tags:
 - Company
 - Cryptocurrency
+- Exchange
+- Trading
+- Market Data
+- WebSocket
+- Canada
+tags_raw:
+- Company
+- Cryptocurrency
 - Exchanges
 - Trading
 - Market Data
@@ -70,6 +78,8 @@ apis:
   humanURL: https://apidoc.ndax.io
   baseURL: https://api.ndax.io:8443/AP
   tags:
+  - Account
+  tags_raw:
   - Accounts
   properties:
   - type: OpenAPI
@@ -97,7 +107,8 @@ apis:
   description: The Miscellaneous API from NDAX — 2 operation(s) for miscellaneous.
   humanURL: https://apidoc.ndax.io
   baseURL: https://api.ndax.io:8443/AP
-  tags:
+  tags: []
+  tags_raw:
   - Miscellaneous
   properties:
   - type: OpenAPI
@@ -126,6 +137,8 @@ apis:
   humanURL: https://apidoc.ndax.io
   baseURL: https://api.ndax.io:8443/AP
   tags:
+  - Product
+  tags_raw:
   - Products
   properties:
   - type: OpenAPI
@@ -140,6 +153,8 @@ apis:
   humanURL: https://apidoc.ndax.io
   baseURL: https://api.ndax.io:8443/AP
   tags:
+  - Ticketing
+  tags_raw:
   - Tickets
   properties:
   - type: OpenAPI
@@ -154,6 +169,8 @@ apis:
   humanURL: https://apidoc.ndax.io
   baseURL: https://api.ndax.io:8443/AP
   tags:
+  - Trade
+  tags_raw:
   - Trades
   properties:
   - type: OpenAPI
@@ -168,6 +185,8 @@ apis:
   humanURL: https://apidoc.ndax.io
   baseURL: https://api.ndax.io:8443/AP
   tags:
+  - User
+  tags_raw:
   - Users
   properties:
   - type: OpenAPI
