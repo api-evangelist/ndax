@@ -1,0 +1,14 @@
+{
+  "repo": "ndax",
+  "feeds": [
+    {
+      "source": "https://ndax.io/en/blog",
+      "feed_url": "https://ndax.io/blog/feed.xml",
+      "title": "",
+      "saved": 25,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 25,
+  "fetched": "2026-10-17T14:53:57Z"
+}
