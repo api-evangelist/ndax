@@ -64,5 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-NDAX is a company surfaced via the API Evangelist harvest backlog (source: market-gap:crypto-exchanges) and added to the network as a stub for full-pipeline profiling.
-- https://ndax.io
+Ndax (Ndax Canada Inc.) is a Canadian cryptocurrency exchange and registered investment dealer offering crypto trading against CAD, funding and institutional services. Its Ndax Pro API, built on the AlphaPoint exchange platform, exposes market data, account, order, deposit and withdrawal functions as JSON-framed calls over a WebSocket gateway (wss://api.ndax.io/WSGateway/) and an HTTP gateway at api.ndax.io:8443/AP/.
+
+**Areas:** Company · Cryptocurrency · Exchange · Trading · Market Data · WebSocket · Canada
+
+## NDAX on APIs.io
+
+Everything profiled for NDAX is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ndax/](https://apis.io/providers/ndax/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [NDAX Accounts API](https://apis.io/apis/ndax/ndax-accounts-api/) — The Accounts API from NDAX — 9 operation(s) for accounts.
+- [NDAX Instruments API](https://apis.io/apis/ndax/ndax-instruments-api/) — The Instruments API from NDAX — 2 operation(s) for instruments.
+- [NDAX Miscellaneous API](https://apis.io/apis/ndax/ndax-miscellaneous-api/) — The Miscellaneous API from NDAX — 2 operation(s) for miscellaneous.
+- [NDAX OMS Orders API](https://apis.io/apis/ndax/ndax-oms-orders-api/) — The OMS Orders API from NDAX — 15 operation(s) for oms orders.
+- [NDAX Products API](https://apis.io/apis/ndax/ndax-products-api/) — The Products API from NDAX — 2 operation(s) for products.
+- [NDAX Tickets API](https://apis.io/apis/ndax/ndax-tickets-api/) — The Tickets API from NDAX — 19 operation(s) for tickets.
+- [NDAX Trades API](https://apis.io/apis/ndax/ndax-trades-api/) — The Trades API from NDAX — 5 operation(s) for trades.
+- [NDAX Users API](https://apis.io/apis/ndax/ndax-users-api/) — The Users API from NDAX — 24 operation(s) for users.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ndax-mcp.yml](https://apis.io/servers/ndax/ndax-mcp-yml/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [NDAX API Rules](https://apis.io/rules/ndax/ndax-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ndax Authentication](https://apis.io/security/ndax/ndax-authentication/)
+- [Ndax Domain Security](https://apis.io/security/ndax/ndax-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ndax.io)
+- [Documentation](https://apidoc.ndax.io)
+- [API reference](https://apidoc.ndax.io)
+- [Pricing](https://ndax.io/en/fees)
+- [Sign up](https://portal.ndax.io/auth/sign-up)
+- [Support](https://ndax.io/support)
+- [Blog](https://ndax.io/en/blog)
+- [Terms of service](https://ndax.io/en/legal/account-agreements)
+
+## API Evangelist rating
+
+**Kin Score 26.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 13.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 34.2 |
+
+**Agent readiness 25.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.4** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ndax/](https://apis.io/providers/ndax/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for NDAX: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ndax/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
